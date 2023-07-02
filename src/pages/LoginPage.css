@@ -1,0 +1,130 @@
+
+/* #061124 sormei
+#5888e1
+#0938c8 
+#5b8df2 abi kam rang
+#65920b*/
+
+.ParentDiv {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(11,7,70);
+background: linear-gradient(90deg, rgba(11,7,70,1) 0%, rgba(23,23,142,1) 30%, rgba(43,43,237,1) 77%, rgba(0,212,255,1) 100%, rgba(6,181,250,1) 100%, rgba(0,212,255,1) 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ImgChildDiv {
+    width: 30vw;
+    height: 60vh;
+    background-image: url("../media/metawa.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 20px -6px #000;
+  }
+  
+  .FormChildDiv{
+     width: 30vw;
+     height: 60vh;
+     background-color: #183c7a; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 10px 20px -6px #000;
+  }
+
+  .logoResponse{
+    display: none;
+  }
+  
+  .LoginForm {
+    height: 430px;
+    width: 400px;
+    position: relative;
+    padding: 7px;
+    background: #5b8df2;
+    box-shadow: 0 10px 20px -6px #000;  
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .FormHeading {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700px;
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .FormTitle{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding:0px 50px 20px 50px;
+  }
+  
+  .InputGroup {
+    margin-top: 35px;
+    position: initial;
+    width: 330px;
+    margin-left: 30px;
+    justify-content: center;
+  }
+  
+  .InputField {
+    color: #fff;
+    width: 68%;
+    padding: 12px 0;
+    margin: 12px 0;
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  .LoginBtn {
+    color: #fff;
+    width: 68%;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* display: block; */
+    margin-top: 30px;
+    background: #72b407;
+    border: 0px;
+    border-radius: 3px;
+  }
+
+  .LoginBtn:hover{
+    background: #58860e;
+  }
+
+  @media screen and (max-width: 810px) {
+    .ImgChildDiv{
+      display: none;
+    }
+    .FormChildDiv{
+      width: 0vw;
+      height: 0vh;
+      background-color: #183c7a; 
+    }
+    .LoginForm{
+      padding-right: 30px;
+    }
+    .ParentDiv{
+      background: rgb(11,7,70);
+      background: linear-gradient(90deg, rgba(11,7,70,1) 0%, rgba(23,23,142,1) 30%, rgba(43,43,237,1) 77%, rgb(0, 141, 206) 100%); 
+    }
+    .logoResponse{
+      display: block;
+      width: 300px;
+      height: 200px;
+      margin:-65px 8px ;
+      margin-bottom: -90px;
+    }
+  }
